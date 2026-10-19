@@ -81,7 +81,19 @@ g++ main.cpp -o main
 
 ## 🎮 Commands
 
-The simulator supports commands for movement, direction control, navigation, and status checking. Available commands are displayed by the program.
+The simulator supports the following commands:
+
+| Command | Description |
+|---|---|
+| `forward` | Move one cell forward in the current direction. |
+| `backward` | Move one cell backward. |
+| `left` | Turn the robot left. |
+| `right` | Turn the robot right. |
+| `reset` | Reset the robot to `(0, 0)` facing North. |
+| `help` | Display the available commands. |
+| `path` | Display the BFS shortest path to the goal. |
+| `auto` | Navigate automatically toward the goal using BFS. |
+| `stop` | Stop the simulation and display the final report. |
 
 Use the exact command names shown in the running simulator.
 
